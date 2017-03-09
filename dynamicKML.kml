@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+  <NetworkLink>
+    <Link>
+      <href>nw_192.168.8.2.kml</href>
+      <refreshMode>onInterval</refreshMode>
+      <refreshInterval>5</refreshInterval>
+    </Link>
+  </NetworkLink>
+</Document>
+</kml>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?> 
+ <kml xmlns="http://earth.google.com/kml/2.2"> 
+ <Document>
+<Style id="router"><IconStyle><color>ff00ff00</color><scale>2</scale><Icon><href>router.png</href></Icon> </IconStyle>
+</Style><Style id="connected"><IconStyle><color>ff00ff00</color><scale>1</scale><Icon><href>connected.png</href></Icon> </IconStyle>
+</Style><Style id="disConnected"> <IconStyle> <color>ff00ff00</color>  <scale>1</scale><Icon><href>disconnected.png</href></Icon>  </IconStyle> </Style>
+<Style id="redLineStyle">  <LineStyle> <color>501400FF</color> <width>5</width> <gx:labelVisibility>1</gx:labelVisibility></LineStyle></Style><Style id="blueLineStyle"><LineStyle> <color>50F00014</color> <width>5</width><gx:labelVisibility>1</gx:labelVisibility> </LineStyle></Style> <Style id="greenLineStyle"> <LineStyle>  <color>5014F000</color> <width>5</width><gx:labelVisibility>1</gx:labelVisibility> </LineStyle></Style>
+<Placemark><name>192.168.8.2</name><styleUrl>#connected</styleUrl><Point> <coordinates>100.012796667,14.1085683333,0</coordinates></Point></Placemark>
+ 
+<Placemark><name>192.168.8.3</name><styleUrl>#connected</styleUrl><Point> <coordinates>100.002973794,14.1066945202,0</coordinates></Point></Placemark>
+ 
+<Placemark><name>192.168.8.6</name><styleUrl>#connected</styleUrl><Point> <coordinates>100.013424572,14.1185486006,0</coordinates></Point></Placemark>
+ 
+<Placemark><description><![CDATA[From 192.168.8.2 to 192.168.8.3
+LQ: 1.000
+NLQ: 1.000
+Cost: 1.000
+Distance: 1097.42366883]]></description><styleUrl>#greenLineStyle</styleUrl><LineString><extrude>1</extrude><tessellate>1</tessellate><coordinates>100.012796667,14.1085683333,0 100.002973794,14.1066945202,0</coordinates>  </LineString> </Placemark>
+<Placemark><description><![CDATA[From 192.168.8.2 to 192.168.8.6
+LQ: 1.000
+NLQ: 1.000
+Cost: 1.000
+Distance: 206.095550677]]></description><styleUrl>#greenLineStyle</styleUrl><LineString><extrude>1</extrude><tessellate>1</tessellate><coordinates>100.012796667,14.1085683333,0 100.013424572,14.1185486006,0</coordinates>  </LineString> </Placemark>
+<Placemark><description><![CDATA[From 192.168.8.3 to 192.168.8.2
+LQ: 1.000
+NLQ: 1.000
+Cost: 1.000
+Distance: 1097.42366883]]></description><styleUrl>#greenLineStyle</styleUrl><LineString><extrude>1</extrude><tessellate>1</tessellate><coordinates>100.002973794,14.1066945202,0 100.012796667,14.1085683333,0</coordinates>  </LineString> </Placemark>
+<Placemark><description><![CDATA[From 192.168.8.3 to 192.168.8.6
+LQ: 1.000
+NLQ: 1.000
+Cost: 1.000
+Distance: 1189.39814466]]></description><styleUrl>#greenLineStyle</styleUrl><LineString><extrude>1</extrude><tessellate>1</tessellate><coordinates>100.002973794,14.1066945202,0 100.013424572,14.1185486006,0</coordinates>  </LineString> </Placemark>
+<Placemark><description><![CDATA[From 192.168.8.6 to 192.168.8.2
+LQ: 1.000
+NLQ: 1.000
+Cost: 1.000
+Distance: 206.095550677]]></description><styleUrl>#greenLineStyle</styleUrl><LineString><extrude>1</extrude><tessellate>1</tessellate><coordinates>100.013424572,14.1185486006,0 100.012796667,14.1085683333,0</coordinates>  </LineString> </Placemark>
+<Placemark><description><![CDATA[From 192.168.8.6 to 192.168.8.3
+LQ: 1.000
+NLQ: 1.000
+Cost: 1.000
+Distance: 1189.39814466]]></description><styleUrl>#greenLineStyle</styleUrl><LineString><extrude>1</extrude><tessellate>1</tessellate><coordinates>100.013424572,14.1185486006,0 100.002973794,14.1066945202,0</coordinates>  </LineString> </Placemark></Document> 
+ </kml>
